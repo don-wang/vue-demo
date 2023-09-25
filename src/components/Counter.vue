@@ -1,15 +1,10 @@
 <script setup>
-import { storeToRefs } from "pinia";
 import { ref } from "vue";
-import { useCounterStore } from "../stores/index.js";
 
-const counterStore = useCounterStore();
-const countState = storeToRefs(counterStore, { count: "count" });
 const count = ref(0);
 
 const increment = () => {
   count.value++;
-  counterStore.increment();
 };
 </script>
 
@@ -17,7 +12,6 @@ const increment = () => {
   <div>
     <h1>Counter: {{ count }}</h1>
     <button @click="increment">+1</button>
-    <!-- <p>{{ countState }}</p> -->
   </div>
 </template>
 
