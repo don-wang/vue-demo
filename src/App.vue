@@ -7,12 +7,14 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <br />
         <span>Demo ></span>
         <RouterLink to="/demo/component">Component</RouterLink>
         <RouterLink to="/demo/ui-library">UI Library</RouterLink>
+        <br />
         <span>Hands On ></span>
         <RouterLink to="/hands-on/component">Component</RouterLink>
-        <RouterLink to="/hands-on/responsive">Responsive</RouterLink>
+        <RouterLink to="/hands-on/responsive">CSS Library</RouterLink>
         <RouterLink to="/hands-on/ui-library">UI Library</RouterLink>
       </nav>
     </div>
