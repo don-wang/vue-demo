@@ -24,6 +24,6 @@ section {
   @apply h-64 bg-yellow-500;
 }
 .feature {
-  @apply inline-block sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4;
+  @apply inline-block;
 }
 </style>
