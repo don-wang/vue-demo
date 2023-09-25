@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import Responsive from "../views/hands-on/Responsive.vue";
 import BasicComponent from "../views/demo/BasicComponent.vue";
-import Counter from "../views/hands-on/Counter.vue";
+import Component from "../views/hands-on/Component.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,13 +14,13 @@ const router = createRouter({
     },
     {
       path: "/demo/component",
-      name: "component",
+      name: "demo component",
       component: BasicComponent,
     },
     {
-      path: "/hands-on/counter",
-      name: "counter",
-      component: Counter,
+      path: "/hands-on/component",
+      name: "component",
+      component: Component,
     },
     {
       path: "/hands-on/responsive",

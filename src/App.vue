@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
         <span>Demo ></span>
         <RouterLink to="/demo/component">Component</RouterLink>
         <span>Hands On ></span>
-        <RouterLink to="/hands-on/counter">Counter</RouterLink>
+        <RouterLink to="/hands-on/component">Component</RouterLink>
         <RouterLink to="/hands-on/responsive">Responsive</RouterLink>
       </nav>
     </div>
