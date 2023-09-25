@@ -11,5 +11,5 @@ const count = storeToRefs(store, { count: "count" });
 <template>
   <BasicDemo name="Vue" />
 
-  <!-- <h1>{{ count }}</h1> -->
+  <h1>{{ count }}</h1>
 </template>

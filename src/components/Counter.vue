@@ -17,7 +17,7 @@ const increment = () => {
   <div>
     <h1>Counter: {{ count }}</h1>
     <button @click="increment">+1</button>
-    <!-- <p>{{ countState }}</p> -->
+    <p>{{ countState }}</p>
   </div>
 </template>
 
