@@ -5,9 +5,9 @@
   >
     <template #renderItem="{ item }">
       <a-list-item>
-        <a @click.prevent="gotoBlog(item.id)">
-          <a-card :title="item.title"> {{ item.body }}</a-card>
-        </a>
+        <a-card :title="item.title">
+          <a-button type="link" @click="gotoBlog(item.id)"> 詳細へ</a-button>
+        </a-card>
       </a-list-item>
     </template>
   </a-list>
