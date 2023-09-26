@@ -1,5 +1,5 @@
 <template>
-  <p>ここに新しcomponentを挿してください</p>
+  <p>ここにBlogsを表示してください</p>
 </template>
 
 <script setup></script>
